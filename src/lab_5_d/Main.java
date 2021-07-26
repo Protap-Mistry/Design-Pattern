@@ -9,10 +9,10 @@ public class Main {
 		Food peanut_butter= new Food("PeanutButter");
 		Food jelly= new Food("Jelly");
 		
-		PeanutButterAndJellySandwich flour= new SubFoods("Flour");
-		PeanutButterAndJellySandwich salt= new SubFoods("Salt");
-		PeanutButterAndJellySandwich fruit= new SubFoods("Fruit");
-		PeanutButterAndJellySandwich sugar= new SubFoods("Sugar");
+		SubFoods flour= new SubFoods("Flour");
+		SubFoods salt= new SubFoods("Salt");
+		SubFoods fruit= new SubFoods("Fruit");
+		SubFoods sugar= new SubFoods("Sugar");
 		
 		food.addFood(bread);
 		food.addFood(peanut_butter);
